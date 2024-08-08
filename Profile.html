@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/007ec30923.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Main -->
+    <div class="main flex w-[100%] ">
+        <!-- Navbar -->
+        <div class="navbar flex w-[21%] p-[50px] bg-[#cbc3c3]">
+            <img class=" h-[30px] w-[150px]" src="/PeerBuddy/img/pb_logo.png" alt="logo">
+        </div>
+        <!-- Profile -->
+        <div class="profile w-[79%] pl-[50px]">
+            <!-- Header -->
+            <div class="fix ">
+                <h1 class="h-[40px] w-[100px] text-[34px] mt-[20px] text-[#242424] font-bold">Profile</h1>
+                <div
+                    class="options flex justify-between h-[50px] w-[100%] mt-[20px] pr-[50px] border-b-[1px] border-b-[rgba(175,175,175,0.5)]">
+                    <div>
+                        <button
+                            class=" h-[40px] w-[100px] mr-[10px] mb-[10px] bg-white cursor-pointer border border-[#181818] rounded-[20px]">
+                            Checkout
+                        </button>
+                        <button
+                            class="profileButton h-[40px] w-[80px] cursor-pointer font-[600] border-[2px] border-[#242424] rounded-[20px] bg-[rgba(175,175,175,0.15)]">Profile</button>
+                        <button
+                            class="h-[40px] w-[100px] mr-[10px] mb-[10px] bg-white cursor-pointer border border-[#181818] rounded-[20px]">Account</button>
+                    </div>
+                    <button
+                        class="logout h-[40px] w-[100px] font-[600] rounded-[20px] cursor-pointer text-[#ffffff] border-[2px] border-[#E84343] bg-[#E84343]">Logout</button>
+                </div>
+            </div>
+            <!-- Body -->
+            <div class="body flex w-[100%]">
+                <div class="data flex flex-col w-[45%]">
+                    <div class="photo h-[100px] w-[100%] mb-[30px] mt-[20px] flex relative">
+                        <div class="group flex justify-center items-center h-[100px] w-[100px] rounded-[50%] bg-[rgba(175,175,175,0.15)] hover:bg-[rgba(94,92,92,0.15)]">
+                            <i class="fa-regular fa-pen-to-square text-[30px] hidden group-hover:block cursor-pointer"></i>
+                        </div>
+                        <p class="p1 flex h-[100px] w-[100px] flex-col justify-center ml-[10px] text-[14px] "><span
+                                class="pb-[5px] font-bold">Profile Photo</span>Required</p>
+                    </div>
+
+                    <div class="profileLink h-[100px] w-[100%]">
+                        <p class="h-[20px] w-[100%] text-[14px] pb-[25px]">Your topmate page link</p>
+                        <div class="commdiv flex h-[45px] w-[100%]">
+                            <div
+                                class="div1 flex h-[45px] w-[100px] text-[14px] items-center justify-center border border-gray-400 border-r-transparent rounded-tl-[10px] rounded-bl-[10px]">
+                                peerbuddy.io/
+                            </div>
+                            <input
+                                class="h-[45px] w-[310px] text-[14px] pl-[10px] border border-gray-400 rounded-tr-[10px] rounded-br-[10px]"
+                                type="text" placeholder="Username" required>
+                            <div
+                                class="div2 flex justify-center items-center h-[45px] w-[45px] rounded-[50%] ml-[10px] cursor-pointer bg-[rgba(175,175,175,0.15)]">
+                                <?xml version="1.0" ?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                                <svg fill="#000000" width="20px" height="20px" viewBox="0 0 512 512" data-name="Layer 1"
+                                    id="Layer_1" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M410.81,281.1H440.7V431.41A46.64,46.64,0,0,1,394.11,478H93.5a46.64,46.64,0,0,1-46.59-46.59V130.8A46.64,46.64,0,0,1,93.5,84.21H243.81V114.1H93.5a16.72,16.72,0,0,0-16.7,16.7V431.41a16.72,16.72,0,0,0,16.7,16.7H394.11a16.72,16.72,0,0,0,16.7-16.7ZM210.69,334.84l29.84,1.7L244.16,273c2.54-44.54,22.26-84.35,54.12-109.22a149.51,149.51,0,0,1,91.58-31.51h18L360.6,179.56l21.14,21.14,83.35-83.35L381.74,34,360.6,55.14l47.27,47.26h-18a179.52,179.52,0,0,0-110,37.85c-38.64,30.17-62.54,77.94-65.57,131.08Z" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="inputs w-[100%]">
+                        <div class="flex justify-between">
+                            <p class="inline-block w-[47%] mb-[10px] font-[600] text-[14px]">First Name</p>
+                            <p class="inline-block w-[47%] mb-[10px] font-[600] text-[14px]">Last Name</p>
+                        </div>
+                        <div class="flex justify-between">
+                            <input class="h-[40px] w-[47%] text-[14px] pl-[10px] rounded-[10px] border border-[#888888]"
+                                type="text" placeholder="First name" required>
+                            <input
+                                class="h-[40px] w-[47%] text-[14px] pl-[10px] rounded-[10px] border border-[#888888] ml-[15px]"
+                                type="text" placeholder="Last Name" required>
+                        </div>
+                        <p class="text-[14px] font-[600] mb-[10px]"><br>Display Name</p>
+                        <input class="h-[40px] w-[100%] text-[14px] pl-[10px] rounded-[10px] border border-[#888888]"
+                            type="text" placeholder="This is the name people will see on your profile" required>
+
+                        <p class="text-[14px] font-[600] mb-[10px]"><br>Your topmate intro (Required)</p>
+                        <input class="h-[40px] w-[100%] text-[14px] pl-[10px] rounded-[10px] border border-[#888888]"
+                            type="text" placeholder="This is the first thing people will see" required>
+
+                        <p class="text-[14px] font-[600] mb-[10px]"><br>About yourself</p>
+                        <input class="h-[110px] w-[100%] text-[14px] pl-[10px] rounded-[10px] border border-[#888888]"
+                            type="text" placeholder="Tell us more about yourself, your interests and your experience"
+                            required>
+                    </div>
+
+                    <h5 class="h-[40px] w-[100%] text-[24px] font-[600] mt-[50px] mb-[5px]">Website Widget</h5>
+                    <div class="widget flex h-[140px] w-[100%] rounded-[10px] bg-[rgba(175,175,175,0.15)]">
+                        <div
+                            class="div1 flex justify-center items-center h-[120px] w-[120px] m-[10px] bg-white rounded-[5px]">
+                            <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                            <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11 19.9V4.1C11 2.6 10.36 2 8.77 2H4.73C3.14 2 2.5 2.6 2.5 4.1V19.9C2.5 21.4 3.14 22 4.73 22H8.77C10.36 22 11 21.4 11 19.9Z"
+                                    fill="#292D32" />
+                                <path
+                                    d="M21.5 10.9V4.1C21.5 2.6 20.86 2 19.27 2H15.23C13.64 2 13 2.6 13 4.1V10.9C13 12.4 13.64 13 15.23 13H19.27C20.86 13 21.5 12.4 21.5 10.9Z"
+                                    fill="#292D32" />
+                                <path
+                                    d="M21.5 19.9V17.1C21.5 15.6 20.86 15 19.27 15H15.23C13.64 15 13 15.6 13 17.1V19.9C13 21.4 13.64 22 15.23 22H19.27C20.86 22 21.5 21.4 21.5 19.9Z"
+                                    fill="#292D32" />
+                            </svg>
+                        </div>
+                        <div class="div2 h-[120px] w-[240px] m-[10px]">
+                            <p>Embed topmate on your website in under <span class="font-[600]">1 minute</span></p>
+                            <button
+                                class="generate h-[32px] w-[105px] font-[600] border border-[#181818] rounded-[20px] mt-[40px] cursor-pointer">Generate</button>
+                        </div>
+                    </div>
+
+                    <h5 class="h-[40px] w-[100%] text-[24px] font-[600] mt-[50px] mb-[5px]">Display</h5>
+                    <div class="display w-[100%]">
+                        <div class="theme flex justify-end relative">
+                            <div
+                                class="div1 h-[45px] w-[120px] flex items-center absolute left-0 text-[16px] font-[600]">
+                                Profile Theme</div>
+                            <div class="div2 h-[33px] w-[33px] m-[4px] bg-[#054D87] rounded-[5px] cursor-pointer"></div>
+                            <div
+                                class="div3 h-[45px] w-[60px] flex items-center justify-center text-[15px] font-[600] cursor-pointer">
+                                Edit</div>
+                        </div>
+                        <p class="h-[40px] w-[100%] text-[14px] border-b border-b-[rgba(175,175,175,0.5)]">Customize
+                            your profile to your brand</p>
+                        <div class="order flex justify-between mt-[15px]">
+                            <div class="div1 h-[45px] w-[120px] flex items-center text-[16px] font-[600]">Service order
+                            </div>
+                            <div
+                                class="div2 h-[45px] w-[60px] flex items-center justify-center text-[15px] font-[600] cursor-pointer">
+                                Edit</div>
+                        </div>
+                        <p class="h-[40px] w-[100%] text-[14px] border-b border-b-[rgba(175,175,175,0.5)]">Arrange
+                            services as you would like to display on your page</p>
+                    </div>
+
+                    <h5 class="h-[40px] w-[100%] text-[24px] font-[600] mt-[50px] mb-[5px]">Social Links</h5>
+                    <div
+                        class="socialLink h-[40px] w-[100%] flex items-center justify-center text-[14px] rounded-[5px] border border-dashed border-[#363636] cursor-pointer">
+                        <pre>+  Add Social Link</pre>
+                    </div>
+
+                    <div
+                        class="save flex justify-center items-center h-[45px] w-[100%] mt-[50px] mb-[25px] bg-[#242424] text-[#ffffff] text-[15px] font-[700] rounded-[5px] cursor-pointer">
+                        Save Changes
+                    </div>
+                </div>
+
+                <button
+                    class="checklist h-[50px] w-[175px] rounded-[25px] bg-[#054D87] border-[transparent] text-[white] text-[15px] font-[600] fixed right-[50px] bottom-[25px] cursor-pointer">My
+                    Checklist</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

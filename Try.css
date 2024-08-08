@@ -1,0 +1,38 @@
+*{
+    /* border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    font-size: 72px;
+    color: aliceblue;
+    font-weight: 800;
+    font-family: Gilroy, -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Arial, sans-serif !important;
+    align-items: center;
+    line-height: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    box-shadow: 5px black;
+
+    box-shadow: inset 2px 2px 2px 2px #363636, inset -2px -2px 2px #363636;
+
+    position: relative;
+    top: 10px;
+    z-index: 1;
+    position: sticky;
+    top: 0px; */
+
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: #363636;
+    border-radius: 50%;
+    
+}
+.box:hover{
+    background-color: blue;
+    
+}
